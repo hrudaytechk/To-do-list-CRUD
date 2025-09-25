@@ -1,0 +1,108 @@
+/* Container & overall page */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.MuiContainer-root {
+  padding: 20px !important;
+}
+
+/* Table styling */
+.MuiPaper-root {
+  border-radius: 12px !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1) !important;
+}
+
+.MuiTableCell-root {
+  padding: 12px 8px !important;
+  font-size: 14px;
+}
+
+.MuiTableHead-root .MuiTableCell-root {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Buttons */
+.MuiButton-root {
+  text-transform: none !important;
+  font-weight: 500;
+}
+
+.MuiButton-containedPrimary {
+  background-color: #1976d2 !important;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #1565c0 !important;
+}
+
+.MuiButton-containedSecondary {
+  background-color: #f44336 !important;
+}
+
+.MuiButton-containedSecondary:hover {
+  background-color: #d32f2f !important;
+}
+
+/* Dialog styling */
+.MuiDialog-paper {
+  border-radius: 12px !important;
+}
+
+.MuiTextField-root {
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .MuiTableCell-root {
+    font-size: 13px;
+    padding: 10px 6px;
+  }
+}
+
+@media (max-width: 900px) {
+  .MuiTypography-h4 {
+    font-size: 24px !important;
+  }
+
+  .MuiButton-root {
+    font-size: 13px;
+    padding: 6px 12px;
+  }
+
+  .MuiTableCell-root {
+    font-size: 12px;
+    padding: 8px 4px;
+  }
+}
+
+@media (max-width: 600px) {
+  .MuiTypography-h4 {
+    font-size: 20px !important;
+  }
+
+  .MuiStack-root {
+    flex-direction: column !important;
+    gap: 12px !important;
+  }
+
+  .MuiTableCell-root {
+    font-size: 11px;
+    padding: 6px 3px;
+  }
+
+  .MuiButton-root {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .MuiDialogContent-root {
+    padding: 16px !important;
+  }
+}
